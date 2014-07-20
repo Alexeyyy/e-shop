@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    min-width: 980px;
+    max-width: 1200px;
+}
+
+
+/*===HEAD===*/
+header {
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.logo, .slogan {
+    float: left;
+}
+
+.logo {
+    margin: 8px 0 0 30px;
+}
+
+.slogan {
+    margin: 40px 0 0 30px;
+}
+
+.header-inf {
+    float: right;
+    overflow: hidden;
+    width: 305px;
+}
+
+.header-contact {
+    background: #f8fafb;
+    border: 1px solid #bbbbbb;
+    border-top: none;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0 0 10px 0;
+    text-align: right;
+}
+
+.contact-item {
+    margin-bottom: 3px;
+}
+
+.contact-item-text > p {
+    margin: 0;
+    line-height: 100%;
+}
+
+.contact-item-img {
+    margin: 4px 10px 0 15px;
+    float: right;
+}
+
+.phone {
+    font: normal 13pt Verdana sans-serif;
+}
+
+.phone-number {
+    font: bold 18pt Verdana sans-serif;
+}
+
+.schedule {
+    font: normal 12pt Verdana sans-serif;
+    opacity: 0.7;
+}
+
+/*Search form*/
+
+.search-btn {
+    font: normal 11pt Verdana sans-serif;
+
+}
+
+.header-search {
+
+}
+
+/*Search form*/
+
+/*===HEAD===*/
+
+
+.clear {
+    clear: both;
+}

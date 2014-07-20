@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="js/functions.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <title></title>
 </head>
 <body>
@@ -15,29 +16,46 @@
         <img class="slogan" src="images/slogan.jpg" alt="Слоган компании"/>
         <div class="header-inf">
             <div class="header-contact">
-                <p>
-                    Телефон:<br/>
-                    8 (800) 700-00-01
-                </p>
-                <p>
-                    Режим работы:<br/>
-                    Будние дни: с 9:00 до 18:00<br/>
-                    Суббота, Воскресенье - выходные<br/>
-                </p>
+                <img class="contact-item-img" src="images/phone_pipe.jpg">
+                <div class="contact-item">
+                    <div class="contact-item-text">
+                        <p>
+                            <span class="phone">Телефон:</span><br/>
+                            <span class="phone-number">8 (800) 700-00-01</span>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="contact-item">
+                    <img class="contact-item-img" src="images/clock.jpg">
+                    <div class="contact-item-text">
+                        <p>
+                            <span class="schedule">
+                                Режим работы:<br/>
+                                Будние дни: с 9:00 до 18:00<br/>
+                                Суббота, Воскресенье - выходные<br/>
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
             </div>
-            <form class="form-header-search" method="get" action="">
-                <ul>
-                    <li>
-                        <input type="text" name="search" placeholder="Что вы хотите купить?">
-                    </li>
-                    <li>
-                        <input type="image" src="images/search-button.jpg">
-                    </li>
-                </ul>
-            </form>
+
+            <div class="clear">
+            </div>
+
+            <div class="input-group header-search">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-default search-btn" type="button">Найти</button>
+                </span>
+            </div>
         </div>
     </header>
 
+    <nav>
+    
+    </nav>
 </div>
 </body>
 </html>
