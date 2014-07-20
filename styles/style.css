@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    min-width: 980px;
+    max-width: 1200px;
+}
+
+
+/*===HEAD===*/
+header {
+    overflow: hidden;
+}
+
+.logo, .slogan {
+    float: left;
+}
+
+.logo {
+    margin: 8px 0 0 30px;
+}
+
+.slogan {
+    margin: 40px 0 0 30px;
+}
+
+
+.header-inf {
+    float: right;
+    background-color: #f8fafb;
+}
+
+/*===HEAD===*/
